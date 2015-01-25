@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE51F923192452EC00CAB399 /* QUQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = FE51F922192452EC00CAB399 /* QUQueue.c */; };
+		FE5FEE761924382900A44D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE751924382900A44D01 /* Foundation.framework */; };
+		FE5FEE781924382900A44D01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE771924382900A44D01 /* CoreGraphics.framework */; };
+		FE5FEE7A1924382900A44D01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE791924382900A44D01 /* UIKit.framework */; };
+		FE5FEE801924382900A44D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE5FEE7E1924382900A44D01 /* InfoPlist.strings */; };
+		FE5FEE821924382900A44D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FEE811924382900A44D01 /* main.m */; };
+		FE5FEE861924382900A44D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FEE851924382900A44D01 /* AppDelegate.m */; };
+		FE5FEE881924382900A44D01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5FEE871924382900A44D01 /* Images.xcassets */; };
+		FE5FEE8F1924382900A44D01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE8E1924382900A44D01 /* XCTest.framework */; };
+		FE5FEE901924382900A44D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE751924382900A44D01 /* Foundation.framework */; };
+		FE5FEE911924382900A44D01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5FEE791924382900A44D01 /* UIKit.framework */; };
+		FE5FEE991924382900A44D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE5FEE971924382900A44D01 /* InfoPlist.strings */; };
+		FE5FEE9B1924382900A44D01 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FEE9A1924382900A44D01 /* QueueTests.m */; };
+		FE5FEEA61924383600A44D01 /* NSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5FEEA51924383600A44D01 /* NSQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5FEE921924382900A44D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5FEE6A1924382900A44D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5FEE711924382900A44D01;
+			remoteInfo = Queue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE51F922192452EC00CAB399 /* QUQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QUQueue.c; sourceTree = "<group>"; };
+		FE51F924192452F400CAB399 /* QUQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QUQueue.h; sourceTree = "<group>"; };
+		FE5FEE721924382900A44D01 /* Queue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Queue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5FEE751924382900A44D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE5FEE771924382900A44D01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE5FEE791924382900A44D01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE5FEE7D1924382900A44D01 /* Queue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Queue-Info.plist"; sourceTree = "<group>"; };
+		FE5FEE7F1924382900A44D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE5FEE811924382900A44D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE5FEE831924382900A44D01 /* Queue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Queue-Prefix.pch"; sourceTree = "<group>"; };
+		FE5FEE841924382900A44D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE5FEE851924382900A44D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE5FEE871924382900A44D01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE5FEE8D1924382900A44D01 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5FEE8E1924382900A44D01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FE5FEE961924382900A44D01 /* QueueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QueueTests-Info.plist"; sourceTree = "<group>"; };
+		FE5FEE981924382900A44D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE5FEE9A1924382900A44D01 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
+		FE5FEEA41924383600A44D01 /* NSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSQueue.h; sourceTree = "<group>"; };
+		FE5FEEA51924383600A44D01 /* NSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5FEE6F1924382900A44D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE781924382900A44D01 /* CoreGraphics.framework in Frameworks */,
+				FE5FEE7A1924382900A44D01 /* UIKit.framework in Frameworks */,
+				FE5FEE761924382900A44D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5FEE8A1924382900A44D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE8F1924382900A44D01 /* XCTest.framework in Frameworks */,
+				FE5FEE911924382900A44D01 /* UIKit.framework in Frameworks */,
+				FE5FEE901924382900A44D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5FEE691924382900A44D01 = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE7B1924382900A44D01 /* Queue */,
+				FE5FEE941924382900A44D01 /* QueueTests */,
+				FE5FEE741924382900A44D01 /* Frameworks */,
+				FE5FEE731924382900A44D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5FEE731924382900A44D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE721924382900A44D01 /* Queue.app */,
+				FE5FEE8D1924382900A44D01 /* QueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5FEE741924382900A44D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE751924382900A44D01 /* Foundation.framework */,
+				FE5FEE771924382900A44D01 /* CoreGraphics.framework */,
+				FE5FEE791924382900A44D01 /* UIKit.framework */,
+				FE5FEE8E1924382900A44D01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE5FEE7B1924382900A44D01 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE841924382900A44D01 /* AppDelegate.h */,
+				FE5FEE851924382900A44D01 /* AppDelegate.m */,
+				FE5FEE871924382900A44D01 /* Images.xcassets */,
+				FE5FEE7C1924382900A44D01 /* Supporting Files */,
+				FE51F924192452F400CAB399 /* QUQueue.h */,
+				FE5FEEA41924383600A44D01 /* NSQueue.h */,
+				FE51F922192452EC00CAB399 /* QUQueue.c */,
+				FE5FEEA51924383600A44D01 /* NSQueue.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		FE5FEE7C1924382900A44D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE7D1924382900A44D01 /* Queue-Info.plist */,
+				FE5FEE7E1924382900A44D01 /* InfoPlist.strings */,
+				FE5FEE811924382900A44D01 /* main.m */,
+				FE5FEE831924382900A44D01 /* Queue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE5FEE941924382900A44D01 /* QueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE9A1924382900A44D01 /* QueueTests.m */,
+				FE5FEE951924382900A44D01 /* Supporting Files */,
+			);
+			path = QueueTests;
+			sourceTree = "<group>";
+		};
+		FE5FEE951924382900A44D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FEE961924382900A44D01 /* QueueTests-Info.plist */,
+				FE5FEE971924382900A44D01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5FEE711924382900A44D01 /* Queue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5FEE9E1924382900A44D01 /* Build configuration list for PBXNativeTarget "Queue" */;
+			buildPhases = (
+				FE5FEE6E1924382900A44D01 /* Sources */,
+				FE5FEE6F1924382900A44D01 /* Frameworks */,
+				FE5FEE701924382900A44D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Queue;
+			productName = Queue;
+			productReference = FE5FEE721924382900A44D01 /* Queue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5FEE8C1924382900A44D01 /* QueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5FEEA11924382900A44D01 /* Build configuration list for PBXNativeTarget "QueueTests" */;
+			buildPhases = (
+				FE5FEE891924382900A44D01 /* Sources */,
+				FE5FEE8A1924382900A44D01 /* Frameworks */,
+				FE5FEE8B1924382900A44D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5FEE931924382900A44D01 /* PBXTargetDependency */,
+			);
+			name = QueueTests;
+			productName = QueueTests;
+			productReference = FE5FEE8D1924382900A44D01 /* QueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5FEE6A1924382900A44D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YY;
+				TargetAttributes = {
+					FE5FEE8C1924382900A44D01 = {
+						TestTargetID = FE5FEE711924382900A44D01;
+					};
+				};
+			};
+			buildConfigurationList = FE5FEE6D1924382900A44D01 /* Build configuration list for PBXProject "Queue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE5FEE691924382900A44D01;
+			productRefGroup = FE5FEE731924382900A44D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5FEE711924382900A44D01 /* Queue */,
+				FE5FEE8C1924382900A44D01 /* QueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5FEE701924382900A44D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE801924382900A44D01 /* InfoPlist.strings in Resources */,
+				FE5FEE881924382900A44D01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5FEE8B1924382900A44D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE991924382900A44D01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5FEE6E1924382900A44D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE861924382900A44D01 /* AppDelegate.m in Sources */,
+				FE51F923192452EC00CAB399 /* QUQueue.c in Sources */,
+				FE5FEE821924382900A44D01 /* main.m in Sources */,
+				FE5FEEA61924383600A44D01 /* NSQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5FEE891924382900A44D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5FEE9B1924382900A44D01 /* QueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5FEE931924382900A44D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5FEE711924382900A44D01 /* Queue */;
+			targetProxy = FE5FEE921924382900A44D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5FEE7E1924382900A44D01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5FEE7F1924382900A44D01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE5FEE971924382900A44D01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5FEE981924382900A44D01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5FEE9C1924382900A44D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE5FEE9D1924382900A44D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5FEE9F1924382900A44D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queue/Queue-Prefix.pch";
+				INFOPLIST_FILE = "Queue/Queue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE5FEEA01924382900A44D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queue/Queue-Prefix.pch";
+				INFOPLIST_FILE = "Queue/Queue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FE5FEEA21924382900A44D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Queue.app/Queue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queue/Queue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QueueTests/QueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FE5FEEA31924382900A44D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Queue.app/Queue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queue/Queue-Prefix.pch";
+				INFOPLIST_FILE = "QueueTests/QueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5FEE6D1924382900A44D01 /* Build configuration list for PBXProject "Queue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5FEE9C1924382900A44D01 /* Debug */,
+				FE5FEE9D1924382900A44D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5FEE9E1924382900A44D01 /* Build configuration list for PBXNativeTarget "Queue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5FEE9F1924382900A44D01 /* Debug */,
+				FE5FEEA01924382900A44D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5FEEA11924382900A44D01 /* Build configuration list for PBXNativeTarget "QueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5FEEA21924382900A44D01 /* Debug */,
+				FE5FEEA31924382900A44D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5FEE6A1924382900A44D01 /* Project object */;
+}
